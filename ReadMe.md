@@ -29,3 +29,7 @@ The code consists of three main parts:
 
 - The code utilizes localStorage to save and load code snippets between sessions.
 - The `eval` function is used in the `run` function to execute JavaScript code within the preview iframe. Be cautious when using `eval` as it can be a security risk if untrusted code is being executed.
+
+## Demo:
+
+Check out the live demo of IEditor: [IEditor Demo](https://caytomahamed.github.io/IEditor/)
