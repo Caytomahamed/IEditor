@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IEditor</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="icon" href="editor.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="editor-con">
+        <div class="editor-toolbar">
+          <button class="save">save</button>
+          <button class="clear">clear</button>
+        </div>
+        <div class="editor-title">
+          <img src="./html5.webp" alt="html" />
+          <h5>Html</h5>
+        </div>
+        <textarea class="editor html scrollable-element" contenteditable="true">
+        </textarea>
+        <div class="editor-title">
+          <img src="./css.png" alt="html" />
+          <h4>Css</h4>
+        </div>
+        <textarea class="editor css scrollable-element" contenteditable="true">
+        </textarea>
+        <div class="editor-title">
+          <img src="./js.png" alt="html" />
+          <h4>Js</h4>
+        </div>
+        <textarea class="editor js scrollable-element" contenteditable="true">
+        </textarea>
+      </div>
+      <iframe class="preview">
+        <!-- Preview of the code will appear here -->
+      </iframe>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
